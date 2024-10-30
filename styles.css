@@ -1,0 +1,155 @@
+html, body {
+    overflow-y: auto; /* Enables vertical scrolling */
+    height: 100%; /* Ensures the page can extend as needed */
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #1e1f22;
+    color: #dcdcdc;
+    padding: 1rem;
+    margin: 0;
+}
+
+
+header, #content h2, #content p, footer {
+    background-color: rgba(30, 31, 34, 0.85); /* Dark background with slight transparency */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Place behind content */
+}
+
+header {
+    text-align: center;
+    color: #a0ff92;
+    margin-bottom: 2rem;
+}
+
+#content h2 {
+    color: #8e79b5;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    border-left: 1px solid #555;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    color: #a0ff92;
+    cursor: pointer;
+    position: relative;
+}
+
+li::before {
+    content: "├── ";
+    color: #a0ff92;
+    position: absolute;
+    left: -1.5rem;
+}
+
+li:last-child::before {
+    content: "└── ";
+}
+
+p {
+    margin-left: 1.5rem;
+    color: #dcdcdc;
+    padding-left: 1.5rem;
+    border-left: 1px solid #555;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    color: #a0ff92; /* Change text color to green for better readability */
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgba(30, 31, 34, 0.85); /* Slightly translucent dark background */
+    border-top: 1px solid #555;
+}
+
+footer a {
+    color: #a0ff92; /* Green color for links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 50px;
+    filter: invert(100%); /* Makes the image white */
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+header h1 {
+    font-size: 2.5em; /* Adjust this value for the desired size */
+    color: #a0ff92; /* Keep the existing lime green color */
+}
+
+header p {
+    font-size: 1.2em; /* Adjust this value as needed */
+    color: #dcdcdc;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #a0ff92;
+    gap: 5px; /* Space between name and subtitle */
+}
+
+header h1 {
+    font-size: 2.5em; /* Adjust as needed */
+    margin: 0; /* Remove default margin */
+}
+
+header p {
+    font-size: 1.2em; /* Adjust as needed */
+    color: #dcdcdc;
+    margin: 0; /* Remove default margin */
+}
+
+.header-subtext {
+    color: #dcdcdc;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.shuffling-text {
+    display: inline-block;
+    color: #dcdcdc; /* Light gray/white color */
+    font-size: 1em; /* Smaller font size */
+    font-weight: normal; /* Remove bold */
+    width: 8ch; /* Keeps the text centered */
+    text-align: center;
+    white-space: nowrap; /* Prevents line breaks */
+}
+

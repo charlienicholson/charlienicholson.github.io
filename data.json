@@ -1,0 +1,86 @@
+{
+    "Education": [
+        {
+            "title": "University of Warwick - BSc, Cyber Security (Sep 2023 - May 2026)",
+            "description": "Studying Cybersecurity with a focus on cryptography, network security, and ethical hacking."
+        },
+        {
+            "title": "Merchant Taylors’ School - Mathematics, Physics, Computer Science (Sep 2017 - Jun 2022)",
+            "description": "Completed A-levels with a focus on technical subjects, developing a strong foundation in STEM."
+        }
+    ],
+    "Academic Projects": [
+        {
+            "title": "Development of Secure Banking Application",
+            "description": "Developed a cryptographically secure banking app using Python Flask with HTML and JavaScript, applying industry-standard encryption to safeguard PII."
+        },
+        {
+            "title": "Medical Management System (MMS)",
+            "description": "Developed a Python-based medical management application with staff portals, secured via an access control list (ACL)."
+        },
+        {
+            "title": "Penetration Test in Simulated Business Environment",
+            "description": "Conducted a security assessment of office networks and connected devices, identifying exploitable vulnerabilities."
+        },
+        {
+            "title": "Remote Industrial Network Assessment",
+            "description": "Analyzed over one million packets to model a complete network with VLANs and VLSM, enhancing security."
+        }
+    ],
+    "Personal Projects": [
+        {
+            "title": "Raspberry Pi Wardriving Rig",
+            "description": "Developed a headless wardriving rig, capturing local insecure wireless networks."
+        },
+        {
+            "title": "WORM_WCRY Reverse Engineering",
+            "description": "Reverse-engineered the WannaCry worm, analyzing encryption routines and identifying the killswitch."
+        },
+        {
+            "title": "Linux System Log Analyser",
+            "description": "Developed a Linux log analyzer for large volumes of system logs, with plans to integrate Keras for automated detection."
+        },
+        {
+            "title": "CyberStart: Beta Testing",
+            "description": "Participated in CyberStart's closed beta, identifying logic errors and sanitation issues in the platform's infrastructure."
+        }
+    ],
+    "Employment": [
+        {
+            "title": "Mulberry Marketing: Digital Market Researcher (Mar - Jun 2021)",
+            "description": "Conducted research on standardized PPE in the EU, with a focus on data analysis and behavioral trends."
+        },
+        {
+            "title": "Data Annotation: Dataset Labeller (Jun 2024 - Present)",
+            "description": "Labelled datasets in English, mathematics, and computer science. Experience with PyTorch for AI models."
+        }
+    ],
+    "Skills": [
+        {
+            "title": "Technical Skills",
+            "description": "Secure Development, Cryptosystems, Risk Management, Security Testing, Python, C#, JavaScript, SQL, HTML&CSS"
+        },
+        {
+            "title": "Tools and Technologies",
+            "description": "Git, MySQL, Unity, Flask, Tkinter, Wireshark, NetworkMiner, Ghidra, Metasploit, Cisco Packet Tracer, GDB"
+        }
+    ],
+    "Certifications": [
+        {
+            "title": "SANS Foundations & Immersive Labs",
+            "description": "Hands-on experience in incident response, forensics, and attack simulations using the MITRE ATT&CK framework."
+        },
+        {
+            "title": "Google Cybersecurity Professional & Security+",
+            "description": "Practical skills in network security, risk management, and cloud-based security architectures."
+        },
+        {
+            "title": "Palo Alto Networking Professional",
+            "description": "Expertise in NGFW, IPS, and automated threat detection, focusing on APTs and zero-day threats."
+        },
+        {
+            "title": "Meta Frontend & Backend Professional",
+            "description": "Focused on full-stack applications, UI design, and backend infrastructure using JavaScript, Figma, and Bootstrap."
+        }
+    ]
+}
